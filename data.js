@@ -1,6 +1,6 @@
-const data =[
+const products =[
     {
-        "id": "ribs-brisket-and-burnt-ends",
+        "id": 1, 
         "categories": "BBQ",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/79619/joes-kc-ribs-brisket-and-burnt-ends.6710e994980e485e6441b794717ad6fb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Joe's KC BBQ",
@@ -10,7 +10,7 @@ const data =[
       },
 
       {
-        "id": "005-kings-carolina-oink-sampler",
+        "id":2, 
         "categories": "BBQ",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/101071/whole-texas-smoked-brisket.a5558a25381e271408e197936e7985d8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Kings BBQ",
@@ -20,7 +20,7 @@ const data =[
 
       },
       {
-        "id": "mini-trinity-bbq-combo-brisket-ribs-and-links",
+        "id": 3, 
         "categories": "BBQ",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90406/mini-trinity-bbq-combo-brisket-ribs-and-links.245582f593bf64b23b57dfca2be18cfd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Bludso's BBQ",
@@ -30,7 +30,7 @@ const data =[
         
       },
       {
-        "id": "235203-blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo",
+        "id":4, 
         "categories": "BBQ",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/113814/blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo.a95a3e632ae324f719738a2a5c1dff6e.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Blue Smoke",
@@ -40,7 +40,7 @@ const data =[
        
       },
       {
-        "id": "roast-pork-sandwich-kit-for-4",
+        "id":5, 
         "categories": "Porks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134603/roast-pork-sandwich-kit-for-4.28babe63f6db57759b8e03d7a19a78eb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Tommy DiNic's",
@@ -50,7 +50,7 @@ const data =[
         
       },
       {
-        "id": "smoked-whole-bbq-pork-shoulder-serves-10-15",
+        "id": 6, 
         "categories": "Porks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90419/smoked-whole-bbq-pork-shoulder-serves-10-15.cc662e8f02f2910f67d482bbdd555954.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Bludso's BBQ",
@@ -60,7 +60,7 @@ const data =[
        
       },
       {
-        "id": "double-bone-in-heritage-berkshire-pork-chops-4-pack",
+        "id": 7, 
         "categories": "Porks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/114535/double-bone-in-heritage-berkshire-pork-chops-4-pack.5b6a88ca2c85ece8fd5a6dd6abd4f046.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Gastros Craft Meats",
@@ -70,7 +70,7 @@ const data =[
       
       },
       {
-        "id": "pork-steaks",
+        "id": 8, 
         "categories": "Porks",
         "img": "https://goldbelly.imgix.net/uploads/product_image/image/41969/pork-steaks.aaa962e22c9099952fdf15cb0382bd65.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Southside Market & Barbeque",
@@ -80,7 +80,7 @@ const data =[
        
       },
       {
-        "id": "3021-slaughterhouse-five-brisket-pork-sausage-turkey",
+        "id": 9, 
         "categories": "Porks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133207/slaughterhouse-five-brisket-pork-sausage-turkey.28b91d5b2fdf226445bb9e1496f4b126.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Joe's KC BBQ",
@@ -89,7 +89,7 @@ const data =[
         "rate": 4,
       },
       {
-        "id": "california-reserve-filet-mignon-steaks-gift-box",
+        "id": 10, 
         "categories": "Steaks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/96226/california-reserve-filet-mignon-steaks-gift-box.bf226e317aad85f47897ae7e325f790d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Flannery Beef",
@@ -98,7 +98,7 @@ const data =[
         "rate": 5,
       },
       {
-        "id": "california-reserve-ribeye-steaks-gift-box",
+        "id": 11, 
         "categories": "Steaks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132850/california-reserve-ribeye-steaks-gift-box.87b8f6acf5851abe58778d3017105edc.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Flannery Beef",
@@ -107,7 +107,7 @@ const data =[
         "rate": 4,
       },
       {
-        "id": "steaks-and-cakes-date-night-dinner-for-2",
+        "id": 12, 
         "categories": "Steaks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/118617/valentines-steaks-and-cakes-dinner-for-2.0c63dab635eed46209455dc33cd25ea8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Chesapeake Bay Gourmet",
@@ -116,7 +116,7 @@ const data =[
         "rate": 4,
       },
       {
-        "id": "Prime-holiday-steak-sampler-for-10-12",
+        "id": 13, 
         "categories": "Steaks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/113759/holiday-sampler-9-pack.2de75ca80282ffe9d064eb757ff7a5a1.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Saltbrick Prime",
@@ -125,7 +125,7 @@ const data =[
         "rate": 5,
       },
       {
-        "id": "bone-in-rib-steak",
+        "id": 14, 
         "categories": "Steaks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/113844/bone-in-rib-steak.b13d9d4233035767605f0de9acdce1ab.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Old Homestead Steakhouse",
@@ -134,7 +134,7 @@ const data =[
         "rate": 5,
       },
       {
-        "id": "the-gramercy-tavern-burger-4-pack",
+        "id": 15, 
         "categories": "Burgers",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/137148/Gramercy-Tavern-Burger-and-Kielbasa-Kit-6.4.21-72ppi-1x1-15.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Gramercy Tavern",
@@ -143,7 +143,7 @@ const data =[
         "rate": 5,
       },
       {
-        "id": "shake-shack-shackburger-8-pack",
+        "id": 16, 
         "categories": "Burgers",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134862/shake-shack-shackburger-8-pack.973a5e26836ea86d7e86a327becea2b0.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Shake Shack",
@@ -152,7 +152,7 @@ const data =[
         "rate": 5,
       },
       {
-        "id": "gotts-cheeseburger-kit-for-4",
+        "id": 17, 
         "categories": "Burgers",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132933/gotts-complete-cheeseburger-kit-for-4.7bdc74104b193427b3fe6eae39e05b5e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Gott's Roadside",
@@ -162,7 +162,7 @@ const data =[
 
       },
       {
-        "id": "le-big-matt-kit-for-6",
+        "id": 18, 
         "categories": "Burgers",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131436/le-big-matt-kit-for-6.1ddae6e382bb3218eeb0fd5247de115a.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Emmy Squared",
@@ -172,7 +172,7 @@ const data =[
     
       },
       {
-        "id": "the-gothamist-prosciutto-burrata-sandwich-kit-4-pack",
+        "id": 19, 
         "categories": "Sandwiches",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/129490/the-gothamist-prosciutto-burrata-sandwich-kit-4-pack.4238b1e274d50b6e09d0b488aebe64bd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Alidoro",
@@ -182,7 +182,7 @@ const data =[
       
       },
       {
-        "id": "15504-original-muffuletta-sandwich-2-pack",
+        "id": 20, 
         "categories": "Sandwiches",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/68615/original-muffuletta-sandwich-2-pack.ee9a97c691374b6866ea5b7083dd46d5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Central Grocery Muffulettas",
@@ -192,7 +192,7 @@ const data =[
        
       },
       {
-        "id": "the-bomb-sandwich-for-4",
+        "id": 21, 
         "categories": "Sandwiches",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/85102/the-bomb-sandwich-for-4.78f5f65f8b94d6b3c81f70761b8d0f87.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Sal, Kris & Charlie's Deli",
@@ -202,7 +202,7 @@ const data =[
        
       },
       {
-        "id": "15428-pittsburgh-party-pack",
+        "id": 22, 
         "categories": "Sandwiches",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132404/primanti-bros-sandwich-pack-choose-your-meat.db41e477a72d6957e98f860204ce356c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Primanti Bros.",
@@ -212,7 +212,7 @@ const data =[
     
       },
       {
-        "id": "pastrami-burnt-end-sandwich-kit",
+        "id": 23, 
         "categories": "Sandwiches",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/101923/ugly-buns-burnt-end-sandwich-kit-4-pack.cadca40421c5a2b09d46673a8e2a8d37.jpeg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Ugly Drum",
@@ -222,7 +222,7 @@ const data =[
      
       },
       {
-        "id": "15259-german-chocolate-killer-brownie-tin-pack",
+        "id": 24, 
         "categories": "Desserts",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132029/german-chocolate-killer-brownie-tin-pack.5ebc34160f28767a9d94c4da2e04c4b9.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Killer Brownie®",
@@ -232,7 +232,7 @@ const data =[
         
       },
       {
-        "id": "world-famous-banana-pudding-party-sized",
+        "id": 25, 
         "categories": "Desserts",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/84893/world-famous-banana-pudding-bowl-64-oz.85af650f8f51512f8f3181a11d6587d6.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Magnolia Bakery",
@@ -242,7 +242,7 @@ const data =[
        
       },
       {
-        "id": "luigis-original-cannoli-pie",
+        "id": 26, 
         "categories": "Desserts",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132206/original-cannoli-pie.4cb5b9ba82f57b69b90765fd9f07aa1a.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "The Cannoli Pie Company",
@@ -252,7 +252,7 @@ const data =[
       
       },
       {
-        "id": "sea-salted-caramel-swirl-cheesecake",
+        "id": 27, 
         "categories": "Desserts",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134006/sea-salted-caramel-swirl-cheesecake.e2825335433fb7a272a5d77649a6849e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Cotton Blues Cheesecake Company",
@@ -262,7 +262,7 @@ const data =[
         
       },
       {
-        "id": "hong-kong-boba-tea-kit-for-6",
+        "id": 28, 
         "categories": "Drinks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/108725/hong-kong-boba-tea-kit-for-6.63841de36d8e5edfafa13023fc303285.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "New Territories",
@@ -272,7 +272,7 @@ const data =[
        
       },
       {
-        "id": "guys-caliente-margaritas-for-12",
+        "id": 29, 
         "categories": "Drinks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/126836/guys-caliente-margaritas-for-12.ca8c6bc06b8f1039549385ffcebc749d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Guy Fieri",
@@ -282,7 +282,7 @@ const data =[
      
       },
       {
-        "id": "woodford-reserve-mint-julep-syrup",
+        "id": 30, 
         "categories": "Drinks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134036/woodford-reserve-mint-julep-syrup.ef523ac7cbae5f4aba6b058207f490d2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Woodford Reserve",
@@ -292,7 +292,7 @@ const data =[
         
       },
       {
-        "id": "new-orleans-hurricane-mix",
+        "id": 31, 
         "categories": "Drinks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/84522/new-orleans-hurricane-mix.4613584fc65cb0787024dd24d2a8f4b3.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Franco's Hurricane Mix",
@@ -302,7 +302,7 @@ const data =[
        
       },
       {
-        "id": "evan-williams-gourmet-mint-julep-mix-2-pack",
+        "id": 32, 
         "categories": "Drinks",
         "img": "https://goldbelly.imgix.net/uploads/product_image/image/42820/evan-williams-gourmet-mint-julep-mix-2-pack.a0bd561099dd14bfb33e3363c1c025d0.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Evan Williams",
@@ -312,7 +312,7 @@ const data =[
      
       },
       {
-        "id": "margarita-mix",
+        "id": 33, 
         "categories": "Drinks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132643/margarita-mix.bd48a000d589d3147b14790af3c33fcd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Johnny Sanchez",
@@ -322,7 +322,7 @@ const data =[
         
       },
       {
-        "id": "woodford-reserve-mint-julep-syrup-2-pack",
+        "id": 34, 
         "categories": "Drinks",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133235/woodford-reserve-mint-julep-syrup-2-pack.0ac76063f151988113cbaabd0eaa829f.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Woodford Reserve",
@@ -332,7 +332,7 @@ const data =[
        
       },
       {
-        "id": "choose-your-own-ice-cream-6-pints",
+        "id": 35, 
         "categories": "Ice-cream",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/95947/ice-cream-choose-your-own-6-pints.ae6a75a1b5d518d9cbf2982ebc504f4c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Graeter's Ice Cream",
@@ -342,7 +342,7 @@ const data =[
         
       },
       {
-        "id": "23952-nancys-italian-gelato-gift-box",
+        "id": 36, 
         "categories": "Ice-cream",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90388/nancys-italian-gelato-gift-box.d44dba927ca67daf7765e0c3a59f3587.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Nancy Silverton's Nancy's Fancy",
@@ -352,7 +352,7 @@ const data =[
         
       },
       {
-        "id": "237283342-choose-your-own-frozen-custard-6-pack",
+        "id": 37, 
         "categories": "Ice-cream",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133888/choose-your-own-frozen-custard-6-pack.f13e3415fd09547371a184d04166ff77.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Anderson's Frozen Custard",
@@ -362,7 +362,7 @@ const data =[
      
       },
       {
-        "id": "ice-cream-choose-your-own-5-pints",
+        "id": 38, 
         "categories": "Ice-cream",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/103364/ice-cream-choose-your-own-5-pints.05ed6c9fab612b8e5f0367e87428ebf7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "The Baked Bear",
@@ -372,7 +372,7 @@ const data =[
        
       },
       {
-        "id": "17228-4-pint-pack",
+        "id": 39, 
         "categories": "Ice-cream",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/71773/choose-your-own-boozy-ice-cream-4-pints.cecb4c1a4d29b16b44c2b88fa59b3e86.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Tipsy Scoop Boozy Ice Cream",
@@ -382,7 +382,7 @@ const data =[
         
       },
       {
-        "id": "ice-cream-choose-your-own-6-pints",
+        "id": 40, 
         "categories": "Ice-cream",
         "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110356/ice-cream-choose-your-own-6-pints.7e3199bc794ac9d43c69d8a632430dc8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Museum of Ice Cream",
@@ -393,4 +393,5 @@ const data =[
       },
 
 ]
-export default data;
+export default products;
+
