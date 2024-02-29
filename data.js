@@ -1,4 +1,4 @@
-const products =[
+const data=[
     {
         "id": 1, 
         "categories": "BBQ",
