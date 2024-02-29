@@ -2,7 +2,7 @@ const products =[
     {
         "id": 1, 
         "categories": "BBQ",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/79619/joes-kc-ribs-brisket-and-burnt-ends.6710e994980e485e6441b794717ad6fb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/79619/joes-kc-ribs-brisket-and-burnt-ends.6710e994980e485e6441b794717ad6fb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Joe's KC BBQ",
         "dsc": "Joe's KC Ribs, Brisket & Burnt Ends",
         "price": 45.99,
@@ -12,7 +12,7 @@ const products =[
       {
         "id":2, 
         "categories": "BBQ",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/101071/whole-texas-smoked-brisket.a5558a25381e271408e197936e7985d8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/101071/whole-texas-smoked-brisket.a5558a25381e271408e197936e7985d8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Kings BBQ",
         "dsc": "Carolina BBQ Oink Sampler",
         "price": 65,
@@ -22,7 +22,7 @@ const products =[
       {
         "id": 3, 
         "categories": "BBQ",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90406/mini-trinity-bbq-combo-brisket-ribs-and-links.245582f593bf64b23b57dfca2be18cfd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90406/mini-trinity-bbq-combo-brisket-ribs-and-links.245582f593bf64b23b57dfca2be18cfd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Bludso's BBQ",
         "dsc": "Mini Trinity BBQ Combo - Brisket, Ribs & Links",
         "price": 35,
@@ -32,7 +32,7 @@ const products =[
       {
         "id":4, 
         "categories": "BBQ",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/113814/blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo.a95a3e632ae324f719738a2a5c1dff6e.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/113814/blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo.a95a3e632ae324f719738a2a5c1dff6e.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Blue Smoke",
         "dsc": "Blue Smoke Baby Back Ribs + Backyard Barbecue Chicken Combo",
         "price": 76,
@@ -42,7 +42,7 @@ const products =[
       {
         "id":5, 
         "categories": "Porks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134603/roast-pork-sandwich-kit-for-4.28babe63f6db57759b8e03d7a19a78eb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134603/roast-pork-sandwich-kit-for-4.28babe63f6db57759b8e03d7a19a78eb.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Tommy DiNic's",
         "dsc": "Roast Pork Sandwich Kit for 4",
         "price": 67,
@@ -52,7 +52,7 @@ const products =[
       {
         "id": 6, 
         "categories": "Porks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90419/smoked-whole-bbq-pork-shoulder-serves-10-15.cc662e8f02f2910f67d482bbdd555954.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90419/smoked-whole-bbq-pork-shoulder-serves-10-15.cc662e8f02f2910f67d482bbdd555954.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Bludso's BBQ",
         "dsc": "Smoked Whole BBQ Pork Shoulder - Serves 10-15",
         "price": 65,
@@ -62,7 +62,7 @@ const products =[
       {
         "id": 7, 
         "categories": "Porks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/114535/double-bone-in-heritage-berkshire-pork-chops-4-pack.5b6a88ca2c85ece8fd5a6dd6abd4f046.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/114535/double-bone-in-heritage-berkshire-pork-chops-4-pack.5b6a88ca2c85ece8fd5a6dd6abd4f046.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Gastros Craft Meats",
         "dsc": "Double Bone-in Heritage Berkshire Pork Chops - 4 Pack",
         "price": 87,
@@ -72,7 +72,7 @@ const products =[
       {
         "id": 8, 
         "categories": "Porks",
-        "img": "https://goldbelly.imgix.net/uploads/product_image/image/41969/pork-steaks.aaa962e22c9099952fdf15cb0382bd65.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/product_image/image/41969/pork-steaks.aaa962e22c9099952fdf15cb0382bd65.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Southside Market & Barbeque",
         "dsc": "Pork Steaks",
         "price": 90,
@@ -82,7 +82,7 @@ const products =[
       {
         "id": 9, 
         "categories": "Porks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133207/slaughterhouse-five-brisket-pork-sausage-turkey.28b91d5b2fdf226445bb9e1496f4b126.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133207/slaughterhouse-five-brisket-pork-sausage-turkey.28b91d5b2fdf226445bb9e1496f4b126.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Joe's KC BBQ",
         "dsc": "Slaughterhouse Five - Brisket + Pork + Sausage + Turkey",
         "price": 56,
@@ -91,7 +91,7 @@ const products =[
       {
         "id": 10, 
         "categories": "Steaks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/96226/california-reserve-filet-mignon-steaks-gift-box.bf226e317aad85f47897ae7e325f790d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/96226/california-reserve-filet-mignon-steaks-gift-box.bf226e317aad85f47897ae7e325f790d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Flannery Beef",
         "dsc": "California Reserve Filet Mignon Steaks Gift Box",
         "price": 65,
@@ -100,7 +100,7 @@ const products =[
       {
         "id": 11, 
         "categories": "Steaks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132850/california-reserve-ribeye-steaks-gift-box.87b8f6acf5851abe58778d3017105edc.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132850/california-reserve-ribeye-steaks-gift-box.87b8f6acf5851abe58778d3017105edc.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Flannery Beef",
         "dsc": "California Reserve Ribeye Steaks Gift Box",
         "price": 99,
@@ -109,7 +109,7 @@ const products =[
       {
         "id": 12, 
         "categories": "Steaks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/118617/valentines-steaks-and-cakes-dinner-for-2.0c63dab635eed46209455dc33cd25ea8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/118617/valentines-steaks-and-cakes-dinner-for-2.0c63dab635eed46209455dc33cd25ea8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Chesapeake Bay Gourmet",
         "dsc": "Steaks and Cakes Date Night Dinner for 2",
         "price": 86,
@@ -118,7 +118,7 @@ const products =[
       {
         "id": 13, 
         "categories": "Steaks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/113759/holiday-sampler-9-pack.2de75ca80282ffe9d064eb757ff7a5a1.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/113759/holiday-sampler-9-pack.2de75ca80282ffe9d064eb757ff7a5a1.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Saltbrick Prime",
         "dsc": "Chef Matt's Steak Sampler for 10-12",
         "price": 89,
@@ -127,7 +127,7 @@ const products =[
       {
         "id": 14, 
         "categories": "Steaks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/113844/bone-in-rib-steak.b13d9d4233035767605f0de9acdce1ab.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/113844/bone-in-rib-steak.b13d9d4233035767605f0de9acdce1ab.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Old Homestead Steakhouse",
         "dsc": "Bone-in Rib Steak",
         "price": 56,
@@ -136,7 +136,7 @@ const products =[
       {
         "id": 15, 
         "categories": "Burgers",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/137148/Gramercy-Tavern-Burger-and-Kielbasa-Kit-6.4.21-72ppi-1x1-15.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/137148/Gramercy-Tavern-Burger-and-Kielbasa-Kit-6.4.21-72ppi-1x1-15.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Gramercy Tavern",
         "dsc": "The Gramercy Tavern Burger - 4 Pack",
         "price": 36,
@@ -145,7 +145,7 @@ const products =[
       {
         "id": 16, 
         "categories": "Burgers",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134862/shake-shack-shackburger-8-pack.973a5e26836ea86d7e86a327becea2b0.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134862/shake-shack-shackburger-8-pack.973a5e26836ea86d7e86a327becea2b0.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Shake Shack",
         "dsc": "Shake Shack ShackBurger® – 8 Pack",
         "price": 34,
@@ -154,7 +154,7 @@ const products =[
       {
         "id": 17, 
         "categories": "Burgers",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132933/gotts-complete-cheeseburger-kit-for-4.7bdc74104b193427b3fe6eae39e05b5e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132933/gotts-complete-cheeseburger-kit-for-4.7bdc74104b193427b3fe6eae39e05b5e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Gott's Roadside",
         "dsc": "Gott's Complete Cheeseburger Kit for 4",
         "price": 37,
@@ -164,7 +164,7 @@ const products =[
       {
         "id": 18, 
         "categories": "Burgers",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131436/le-big-matt-kit-for-6.1ddae6e382bb3218eeb0fd5247de115a.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/131436/le-big-matt-kit-for-6.1ddae6e382bb3218eeb0fd5247de115a.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Emmy Squared",
         "dsc": "Le Big Matt Burger Kit for 6",
         "price": 45,
@@ -174,7 +174,7 @@ const products =[
       {
         "id": 19, 
         "categories": "Sandwiches",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/129490/the-gothamist-prosciutto-burrata-sandwich-kit-4-pack.4238b1e274d50b6e09d0b488aebe64bd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/129490/the-gothamist-prosciutto-burrata-sandwich-kit-4-pack.4238b1e274d50b6e09d0b488aebe64bd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Alidoro",
         "dsc": "\"The Gothamist\" Prosciutto + Burrata Sandwich Kit - 4 Pack",
         "price": 23,
@@ -184,7 +184,7 @@ const products =[
       {
         "id": 20, 
         "categories": "Sandwiches",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/68615/original-muffuletta-sandwich-2-pack.ee9a97c691374b6866ea5b7083dd46d5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/68615/original-muffuletta-sandwich-2-pack.ee9a97c691374b6866ea5b7083dd46d5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Central Grocery Muffulettas",
         "dsc": "Original Muffuletta Sandwich - 2-Pack (Serves 6-8)",
         "price": 24,
@@ -194,7 +194,7 @@ const products =[
       {
         "id": 21, 
         "categories": "Sandwiches",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/85102/the-bomb-sandwich-for-4.78f5f65f8b94d6b3c81f70761b8d0f87.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/85102/the-bomb-sandwich-for-4.78f5f65f8b94d6b3c81f70761b8d0f87.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Sal, Kris & Charlie's Deli",
         "dsc": "The Bomb Sandwich for 4",
         "price": 25,
@@ -204,7 +204,7 @@ const products =[
       {
         "id": 22, 
         "categories": "Sandwiches",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132404/primanti-bros-sandwich-pack-choose-your-meat.db41e477a72d6957e98f860204ce356c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132404/primanti-bros-sandwich-pack-choose-your-meat.db41e477a72d6957e98f860204ce356c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Primanti Bros.",
         "dsc": "Primanti Bros Sandwich Pack - (Choose Your Meat)",
         "price": 22,
@@ -214,7 +214,7 @@ const products =[
       {
         "id": 23, 
         "categories": "Sandwiches",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/101923/ugly-buns-burnt-end-sandwich-kit-4-pack.cadca40421c5a2b09d46673a8e2a8d37.jpeg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/101923/ugly-buns-burnt-end-sandwich-kit-4-pack.cadca40421c5a2b09d46673a8e2a8d37.jpeg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Ugly Drum",
         "dsc": "Ugly Buns \"Burnt End\" Sandwich Kit - 6 Pack",
         "price": 16,
@@ -224,7 +224,7 @@ const products =[
       {
         "id": 24, 
         "categories": "Desserts",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132029/german-chocolate-killer-brownie-tin-pack.5ebc34160f28767a9d94c4da2e04c4b9.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132029/german-chocolate-killer-brownie-tin-pack.5ebc34160f28767a9d94c4da2e04c4b9.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Killer Brownie®",
         "dsc": "German Chocolate Killer Brownie®",
         "price": 24,
@@ -234,7 +234,7 @@ const products =[
       {
         "id": 25, 
         "categories": "Desserts",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/84893/world-famous-banana-pudding-bowl-64-oz.85af650f8f51512f8f3181a11d6587d6.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/84893/world-famous-banana-pudding-bowl-64-oz.85af650f8f51512f8f3181a11d6587d6.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Magnolia Bakery",
         "dsc": "World Famous Banana Pudding Bowl (64 oz.)",
         "price": 23,
@@ -244,7 +244,7 @@ const products =[
       {
         "id": 26, 
         "categories": "Desserts",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132206/original-cannoli-pie.4cb5b9ba82f57b69b90765fd9f07aa1a.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132206/original-cannoli-pie.4cb5b9ba82f57b69b90765fd9f07aa1a.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "The Cannoli Pie Company",
         "dsc": "Original Cannoli Pie",
         "price": 20,
@@ -254,7 +254,7 @@ const products =[
       {
         "id": 27, 
         "categories": "Desserts",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134006/sea-salted-caramel-swirl-cheesecake.e2825335433fb7a272a5d77649a6849e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134006/sea-salted-caramel-swirl-cheesecake.e2825335433fb7a272a5d77649a6849e.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Cotton Blues Cheesecake Company",
         "dsc": "Sea-Salted Caramel Swirl Cheesecake",
         "price": 25,
@@ -264,7 +264,7 @@ const products =[
       {
         "id": 28, 
         "categories": "Drinks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/108725/hong-kong-boba-tea-kit-for-6.63841de36d8e5edfafa13023fc303285.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/108725/hong-kong-boba-tea-kit-for-6.63841de36d8e5edfafa13023fc303285.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "New Territories",
         "dsc": "Hong Kong Boba Tea Kit for 6",
         "price": 26,
@@ -274,7 +274,7 @@ const products =[
       {
         "id": 29, 
         "categories": "Drinks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/126836/guys-caliente-margaritas-for-12.ca8c6bc06b8f1039549385ffcebc749d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/126836/guys-caliente-margaritas-for-12.ca8c6bc06b8f1039549385ffcebc749d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Guy Fieri",
         "dsc": "Guy's Caliente Margaritas for 12",
         "price": 29,
@@ -284,7 +284,7 @@ const products =[
       {
         "id": 30, 
         "categories": "Drinks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134036/woodford-reserve-mint-julep-syrup.ef523ac7cbae5f4aba6b058207f490d2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134036/woodford-reserve-mint-julep-syrup.ef523ac7cbae5f4aba6b058207f490d2.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Woodford Reserve",
         "dsc": "Woodford Reserve Mint Julep Syrup",
         "price": 26,
@@ -294,7 +294,7 @@ const products =[
       {
         "id": 31, 
         "categories": "Drinks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/84522/new-orleans-hurricane-mix.4613584fc65cb0787024dd24d2a8f4b3.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/84522/new-orleans-hurricane-mix.4613584fc65cb0787024dd24d2a8f4b3.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Franco's Hurricane Mix",
         "dsc": "New Orleans Hurricane Mix",
         "price": 30,
@@ -304,7 +304,7 @@ const products =[
       {
         "id": 32, 
         "categories": "Drinks",
-        "img": "https://goldbelly.imgix.net/uploads/product_image/image/42820/evan-williams-gourmet-mint-julep-mix-2-pack.a0bd561099dd14bfb33e3363c1c025d0.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/product_image/image/42820/evan-williams-gourmet-mint-julep-mix-2-pack.a0bd561099dd14bfb33e3363c1c025d0.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Evan Williams",
         "dsc": "Evan Williams Gourmet Mint Julep Mix - 2 Pack",
         "price": 24,
@@ -314,7 +314,7 @@ const products =[
       {
         "id": 33, 
         "categories": "Drinks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132643/margarita-mix.bd48a000d589d3147b14790af3c33fcd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/132643/margarita-mix.bd48a000d589d3147b14790af3c33fcd.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Johnny Sanchez",
         "dsc": "Margarita Mix",
         "price": 26,
@@ -324,7 +324,7 @@ const products =[
       {
         "id": 34, 
         "categories": "Drinks",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133235/woodford-reserve-mint-julep-syrup-2-pack.0ac76063f151988113cbaabd0eaa829f.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133235/woodford-reserve-mint-julep-syrup-2-pack.0ac76063f151988113cbaabd0eaa829f.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Woodford Reserve",
         "dsc": "Woodford Reserve Mint Julep Syrup - 2 Pack",
         "price": 32,
@@ -334,7 +334,7 @@ const products =[
       {
         "id": 35, 
         "categories": "Ice-cream",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/95947/ice-cream-choose-your-own-6-pints.ae6a75a1b5d518d9cbf2982ebc504f4c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/95947/ice-cream-choose-your-own-6-pints.ae6a75a1b5d518d9cbf2982ebc504f4c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Graeter's Ice Cream",
         "dsc": "Ice Cream - Choose Your Own 6 Pints",
         "price": 14,
@@ -344,7 +344,7 @@ const products =[
       {
         "id": 36, 
         "categories": "Ice-cream",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90388/nancys-italian-gelato-gift-box.d44dba927ca67daf7765e0c3a59f3587.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90388/nancys-italian-gelato-gift-box.d44dba927ca67daf7765e0c3a59f3587.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Nancy Silverton's Nancy's Fancy",
         "dsc": "Nancy Silverton's Favorite Gelato Gift Box",
         "price": 17,
@@ -354,7 +354,7 @@ const products =[
       {
         "id": 37, 
         "categories": "Ice-cream",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133888/choose-your-own-frozen-custard-6-pack.f13e3415fd09547371a184d04166ff77.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133888/choose-your-own-frozen-custard-6-pack.f13e3415fd09547371a184d04166ff77.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Anderson's Frozen Custard",
         "dsc": "Frozen Custard + Handmade Ice Cream - Choose Your Own - 6 Pack",
         "price": 16,
@@ -364,7 +364,7 @@ const products =[
       {
         "id": 38, 
         "categories": "Ice-cream",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/103364/ice-cream-choose-your-own-5-pints.05ed6c9fab612b8e5f0367e87428ebf7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/103364/ice-cream-choose-your-own-5-pints.05ed6c9fab612b8e5f0367e87428ebf7.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "The Baked Bear",
         "dsc": "Ice Cream - Choose Your Own 5 Pints",
         "price": 14,
@@ -374,7 +374,7 @@ const products =[
       {
         "id": 39, 
         "categories": "Ice-cream",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/71773/choose-your-own-boozy-ice-cream-4-pints.cecb4c1a4d29b16b44c2b88fa59b3e86.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/71773/choose-your-own-boozy-ice-cream-4-pints.cecb4c1a4d29b16b44c2b88fa59b3e86.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Tipsy Scoop Boozy Ice Cream",
         "dsc": "Choose Your Own Boozy Ice Cream - 4 Pints",
         "price": 16,
@@ -384,7 +384,7 @@ const products =[
       {
         "id": 40, 
         "categories": "Ice-cream",
-        "img": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110356/ice-cream-choose-your-own-6-pints.7e3199bc794ac9d43c69d8a632430dc8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/110356/ice-cream-choose-your-own-6-pints.7e3199bc794ac9d43c69d8a632430dc8.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Museum of Ice Cream",
         "dsc": "Ice Cream - Choose Your Own 6 Pints",
         "price": 17,
@@ -393,5 +393,5 @@ const products =[
       },
 
 ]
-export default products;
+export default data;
 
