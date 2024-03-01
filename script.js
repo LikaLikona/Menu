@@ -7,9 +7,7 @@ window.addEventListener("load", function () {
   document.body.classList.add("loaded");
 });
 
-/**
- * add event listener on multiple elements
- */
+
 
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
@@ -17,9 +15,6 @@ const addEventOnElements = function (elements, eventType, callback) {
   }
 }
 
-/**
- * NAVBAR
- */
 
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
@@ -33,9 +28,7 @@ const toggleNavbar = function () {
 
 addEventOnElements(navTogglers, "click", toggleNavbar);
 
-/**
- * HEADER & BACK TOP BTN
- */
+
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
@@ -63,10 +56,6 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
-
-/**
- * HERO SLIDER
- */
 
 const heroSlider = document.querySelector("[data-hero-slider]");
 const heroSliderItems = document.querySelectorAll("[data-hero-slider-item]");
@@ -106,9 +95,6 @@ const slidePrev = function () {
 
 heroSliderPrevBtn.addEventListener("click", slidePrev);
 
-/**
- * auto slide
- */
 
 let autoSlideInterval;
 
@@ -125,58 +111,6 @@ addEventOnElements([heroSliderNextBtn, heroSliderPrevBtn], "mouseover", function
 addEventOnElements([heroSliderNextBtn, heroSliderPrevBtn], "mouseout", autoSlide);
 
 window.addEventListener("load", autoSlide);
-
-
-
-
-
-// const topList= document.getElementById("topList");
-// const firstItems = {};
-
-// data.forEach(item => {
-//   if (!firstItems[item.categories]) {
-//     firstItems[item.categories] = item;
-//   }
-// });
-
-// Object.values(firstItems).forEach(item => {
-  
-//   const card = document.createElement("div");
-//   card.classList.add("card");
-
-  
-//   const image = document.createElement("img");
-//   image.src = item.image;
-//   image.alt = item.name;
-//   image.classList.add("card-img-top");
-
-
-//   const cardBody = document.createElement("div");
-//   cardBody.classList.add("card-body");
-
- 
-//   const title = document.createElement("h5");
-//   title.classList.add("card-title");
-//   title.textContent = item.name;
-
-
-//   const description = document.createElement("p");
-//   description.classList.add("card-text");
-//   description.textContent = item.dsc;
-
-//   const price = document.createElement("p");
-//   price.classList.add("card-text");
-//   price.textContent = `$${item.price}`;
-
-//   cardBody.appendChild(image);
-//   cardBody.appendChild(title);
-//   cardBody.appendChild(description);
-//   cardBody.appendChild(price);
-
-//   card.appendChild(cardBody);
-
-//   topList.appendChild(card);
-// });
 
 
 const sectionMenu = document.getElementById("section_menu");
