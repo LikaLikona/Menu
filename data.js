@@ -184,7 +184,7 @@ const data=[
       {
         "id": 20, 
         "categories": "Sandwiches",
-        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/68615/original-muffuletta-sandwich-2-pack.ee9a97c691374b6866ea5b7083dd46d5.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://www.simplyrecipes.com/thmb/DMMic6fospOiTb0xXEv4Bx_Eod8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Muffuletta-LEAD-01-f90c8989ff474d50955b172ab6854f52.jpg",
         "name": "Central Grocery Muffulettas",
         "dsc": "Original Muffuletta Sandwich - 2-Pack (Serves 6-8)",
         "price": 24,
@@ -194,7 +194,7 @@ const data=[
       {
         "id": 21, 
         "categories": "Sandwiches",
-        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/85102/the-bomb-sandwich-for-4.78f5f65f8b94d6b3c81f70761b8d0f87.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://4.bp.blogspot.com/-ZUw3JiP_DIk/Uu0cJK0OtPI/AAAAAAAAGv8/bZYPny1A1S0/s1600/IMG_0983.JPG",
         "name": "Sal, Kris & Charlie's Deli",
         "dsc": "The Bomb Sandwich for 4",
         "price": 25,
@@ -234,7 +234,7 @@ const data=[
       {
         "id": 25, 
         "categories": "Desserts",
-        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/84893/world-famous-banana-pudding-bowl-64-oz.85af650f8f51512f8f3181a11d6587d6.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://www.allrecipes.com/thmb/bXZ2KV72vYRwCym1UQi-hMCjHak=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/22749-the-best-banana-pudding-mfs-365-4x3-c932d443ac8243009231dbe6eea8be95.jpg",
         "name": "Magnolia Bakery",
         "dsc": "World Famous Banana Pudding Bowl (64 oz.)",
         "price": 23,
@@ -264,7 +264,7 @@ const data=[
       {
         "id": 28, 
         "categories": "Drinks",
-        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/108725/hong-kong-boba-tea-kit-for-6.63841de36d8e5edfafa13023fc303285.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://www.vindulge.com/wp-content/uploads/2020/08/Sparkling-Watermelon-Cocktails.jpg",
         "name": "New Territories",
         "dsc": "Hong Kong Boba Tea Kit for 6",
         "price": 26,
@@ -334,7 +334,7 @@ const data=[
       {
         "id": 35, 
         "categories": "Ice-cream",
-        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/95947/ice-cream-choose-your-own-6-pints.ae6a75a1b5d518d9cbf2982ebc504f4c.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://www.shop.tastybees.com/wp-content/uploads/2020/07/icecream3scoope-min.jpg",
         "name": "Graeter's Ice Cream",
         "dsc": "Ice Cream - Choose Your Own 6 Pints",
         "price": 14,
@@ -344,7 +344,7 @@ const data=[
       {
         "id": 36, 
         "categories": "Ice-cream",
-        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/90388/nancys-italian-gelato-gift-box.d44dba927ca67daf7765e0c3a59f3587.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://pro2-bar-s3-cdn-cf.myportfolio.com/bcb7335e-e201-4340-b92d-5bf8cff1abc0/10c946f2-a4d9-4e0b-be40-83fadd3fddb1_rw_1920.jpg?h=3a61971a2a5106df6bc2dbe9b7e9eda7",
         "name": "Nancy Silverton's Nancy's Fancy",
         "dsc": "Nancy Silverton's Favorite Gelato Gift Box",
         "price": 17,
@@ -354,7 +354,7 @@ const data=[
       {
         "id": 37, 
         "categories": "Ice-cream",
-        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/133888/choose-your-own-frozen-custard-6-pack.f13e3415fd09547371a184d04166ff77.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/180060/2022_ice_cream_and_custard_dishes_cake_and_chocolate__copy.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1",
         "name": "Anderson's Frozen Custard",
         "dsc": "Frozen Custard + Handmade Ice Cream - Choose Your Own - 6 Pack",
         "price": 16,
@@ -374,7 +374,7 @@ const data=[
       {
         "id": 39, 
         "categories": "Ice-cream",
-        "image": "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/71773/choose-your-own-boozy-ice-cream-4-pints.cecb4c1a4d29b16b44c2b88fa59b3e86.png?ixlib=react-9.0.2&auto=format&ar=1%3A1",
+        "image": "https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/ae3qqfev6j7hzhxw6if3",
         "name": "Tipsy Scoop Boozy Ice Cream",
         "dsc": "Choose Your Own Boozy Ice Cream - 4 Pints",
         "price": 16,

@@ -128,76 +128,114 @@ window.addEventListener("load", autoSlide);
 
 
 
-/**
- * PARALLAX EFFECT
- */
 
-// const parallaxItems = document.querySelectorAll("[data-parallax-item]");
 
-// let x, y;
+// const topList= document.getElementById("topList");
+// const firstItems = {};
 
-// window.addEventListener("mousemove", function (event) {
-
-//   x = (event.clientX / window.innerWidth * 10) - 5;
-//   y = (event.clientY / window.innerHeight * 10) - 5;
-
-//   // reverse the number eg. 20 -> -20, -5 -> 5
-//   x = x - (x * 2);
-//   y = y - (y * 2);
-
-//   for (let i = 0, len = parallaxItems.length; i < len; i++) {
-//     x = x * Number(parallaxItems[i].dataset.parallaxSpeed);
-//     y = y * Number(parallaxItems[i].dataset.parallaxSpeed);
-//     parallaxItems[i].style.transform = `translate3d(${x}px, ${y}px, 0px)`;
+// data.forEach(item => {
+//   if (!firstItems[item.categories]) {
+//     firstItems[item.categories] = item;
 //   }
+// });
 
+// Object.values(firstItems).forEach(item => {
+  
+//   const card = document.createElement("div");
+//   card.classList.add("card");
+
+  
+//   const image = document.createElement("img");
+//   image.src = item.image;
+//   image.alt = item.name;
+//   image.classList.add("card-img-top");
+
+
+//   const cardBody = document.createElement("div");
+//   cardBody.classList.add("card-body");
+
+ 
+//   const title = document.createElement("h5");
+//   title.classList.add("card-title");
+//   title.textContent = item.name;
+
+
+//   const description = document.createElement("p");
+//   description.classList.add("card-text");
+//   description.textContent = item.dsc;
+
+//   const price = document.createElement("p");
+//   price.classList.add("card-text");
+//   price.textContent = `$${item.price}`;
+
+//   cardBody.appendChild(image);
+//   cardBody.appendChild(title);
+//   cardBody.appendChild(description);
+//   cardBody.appendChild(price);
+
+//   card.appendChild(cardBody);
+
+//   topList.appendChild(card);
 // });
 
 
-const topList= document.getElementById("topList");
-const firstItems = {};
+const sectionMenu = document.getElementById("section_menu");
 
-data.forEach(item => {
-  if (!firstItems[item.categories]) {
-    firstItems[item.categories] = item;
+
+const firstItemsByCategory = {};
+
+
+data.forEach((item) => {
+  if (!firstItemsByCategory[item.categories]) {
+    firstItemsByCategory[item.categories] = item;
   }
 });
 
-Object.values(firstItems).forEach(item => {
-  
-  const card = document.createElement("div");
-  card.classList.add("card");
+Object.entries(firstItemsByCategory).forEach(([category, item]) => {
+  const categoryDiv = document.createElement("div");
+  categoryDiv.classList.add("category");
 
-  
-  const image = document.createElement("img");
-  image.src = item.image;
-  image.alt = item.name;
-  image.classList.add("card-img-top");
+  const categoryHeader = document.createElement("h2");
+  categoryHeader.classList.add("categoryHeader");
+  categoryHeader.textContent = category;
+
+  const productDiv = document.createElement("div");
+  productDiv.classList.add("product");
+
+  const productImage = document.createElement("img");
+  productImage.classList.add("productImage");
+  productImage.src = item.image;
+  productImage.alt = item.name;
+
+  const productName = document.createElement("h3");
+  productName.classList.add("productName");
+  productName.textContent = item.name;
 
 
-  const cardBody = document.createElement("div");
-  cardBody.classList.add("card-body");
+  const productDescription = document.createElement("p");
+  productDescription.classList.add("productDescription");
+  productDescription.textContent = item.dsc;
+
+
+  const productPrice = document.createElement("p");
+  productPrice.classList.add("productPrice");
+  productPrice.textContent = `$${item.price}`;
 
  
-  const title = document.createElement("h5");
-  title.classList.add("card-title");
-  title.textContent = item.name;
+  productDiv.appendChild(productImage);
+  productDiv.appendChild(productName);
+  productDiv.appendChild(productDescription);
+  productDiv.appendChild(productPrice);
+
+  
+  categoryDiv.appendChild(categoryHeader);
+  categoryDiv.appendChild(productDiv);
 
 
-  const description = document.createElement("p");
-  description.classList.add("card-text");
-  description.textContent = item.dsc;
-
-  const price = document.createElement("p");
-  price.classList.add("card-text");
-  price.textContent = `$${item.price}`;
-
-  cardBody.appendChild(image);
-  cardBody.appendChild(title);
-  cardBody.appendChild(description);
-  cardBody.appendChild(price);
-
-  card.appendChild(cardBody);
-
-  topList.appendChild(card);
+  sectionMenu.appendChild(categoryDiv);
+  
 });
+
+
+ import data from './data.js';
+ console.log(data)

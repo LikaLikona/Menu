@@ -944,7 +944,7 @@
   
   /* RESERVATION */
 
-  .reservation-form { margin-block-start: -10px; }
+  .reservation-form { margin-block-start: 30px; }
   
   .form-text 
   
@@ -1697,7 +1697,7 @@
     padding: 20px;
   }
   
-  .card {
+.card {
     display: flex;
     flex-direction: column;
     border: 1px solid hsl(38, 61%, 73%);
@@ -1707,31 +1707,87 @@
     transition: transform 0.3s ease;
   }
   
-  .card:hover {
+.card:hover {
     transform: scale(1.05);
   }
   
-  .card img {
+.card img {
     width: 100%;
     height: auto;
     object-fit: cover;
   }
   
-  .card-body {
+.card-body {
     padding: 20px;
   }
   
-  .card-title {
+.card-title {
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
   
-  .card-text {
+.card-text {
     margin-bottom: 20px;
   }
   
-  .price {
+.price {
     font-size: 30px;
     font-weight: bold;
   }
   
+.topList_menu{
+    margin-top: 10px;
+    align-items: center;
+}
+#section_menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.category {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.categoryHeader {
+  font-size: 24px;
+  margin-bottom: 10px;
+  align-items: center;
+
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.productName {
+  font-size: 20px;
+  margin-bottom: 5px;
+  display: none;
+}
+
+.productDescription {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: none;
+}
+
+.productPrice {
+  font-size: 18px;
+  font-weight: bold;
+  visibility: hidden;
+}
