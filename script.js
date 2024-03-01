@@ -132,26 +132,72 @@ window.addEventListener("load", autoSlide);
  * PARALLAX EFFECT
  */
 
-const parallaxItems = document.querySelectorAll("[data-parallax-item]");
+// const parallaxItems = document.querySelectorAll("[data-parallax-item]");
 
-let x, y;
+// let x, y;
 
-window.addEventListener("mousemove", function (event) {
+// window.addEventListener("mousemove", function (event) {
 
-  x = (event.clientX / window.innerWidth * 10) - 5;
-  y = (event.clientY / window.innerHeight * 10) - 5;
+//   x = (event.clientX / window.innerWidth * 10) - 5;
+//   y = (event.clientY / window.innerHeight * 10) - 5;
 
-  // reverse the number eg. 20 -> -20, -5 -> 5
-  x = x - (x * 2);
-  y = y - (y * 2);
+//   // reverse the number eg. 20 -> -20, -5 -> 5
+//   x = x - (x * 2);
+//   y = y - (y * 2);
 
-  for (let i = 0, len = parallaxItems.length; i < len; i++) {
-    x = x * Number(parallaxItems[i].dataset.parallaxSpeed);
-    y = y * Number(parallaxItems[i].dataset.parallaxSpeed);
-    parallaxItems[i].style.transform = `translate3d(${x}px, ${y}px, 0px)`;
+//   for (let i = 0, len = parallaxItems.length; i < len; i++) {
+//     x = x * Number(parallaxItems[i].dataset.parallaxSpeed);
+//     y = y * Number(parallaxItems[i].dataset.parallaxSpeed);
+//     parallaxItems[i].style.transform = `translate3d(${x}px, ${y}px, 0px)`;
+//   }
+
+// });
+
+
+const topList= document.getElementById("topList");
+const firstItems = {};
+
+data.forEach(item => {
+  if (!firstItems[item.categories]) {
+    firstItems[item.categories] = item;
   }
-
 });
 
+Object.values(firstItems).forEach(item => {
+  
+  const card = document.createElement("div");
+  card.classList.add("card");
+
+  
+  const image = document.createElement("img");
+  image.src = item.image;
+  image.alt = item.name;
+  image.classList.add("card-img-top");
 
 
+  const cardBody = document.createElement("div");
+  cardBody.classList.add("card-body");
+
+ 
+  const title = document.createElement("h5");
+  title.classList.add("card-title");
+  title.textContent = item.name;
+
+
+  const description = document.createElement("p");
+  description.classList.add("card-text");
+  description.textContent = item.dsc;
+
+  const price = document.createElement("p");
+  price.classList.add("card-text");
+  price.textContent = `$${item.price}`;
+
+  cardBody.appendChild(image);
+  cardBody.appendChild(title);
+  cardBody.appendChild(description);
+  cardBody.appendChild(price);
+
+  card.appendChild(cardBody);
+
+  topList.appendChild(card);
+});
